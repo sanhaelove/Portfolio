@@ -52,6 +52,17 @@
         padding-left: 0;
     }
 
+    li{
+      list-style: none;
+    }
+
+    button{
+      background-color: transparent;
+      cursor: pointer;
+      border: none;
+      outline: none;
+    }
+
   /* Typography */
   
   h1 {
@@ -85,11 +96,12 @@
   /* Navbar */
 #navbar{
     display : flex;
-    justify-content: space;
+    justify-content: space-between;
     background-color: var(--color-pink);
     align-items: center;
     color: var(--color-white);
     padding:16px;
+    
 }
 
 .navbar__menu {
@@ -116,4 +128,35 @@ border-radius: var(--size--border-radious);
 
 .navbar__menu__item:hover {
     background-color: var(--color-dark-pink);
+
+}
+
+/* Home */
+#home{
+  background: url('imgs/background.png');
+  padding:40px;
+  text-align: center;
+}
+
+.home__avatar{
+    width:250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 2px solid var(--color-white);
+
+}
+
+.home__title,
+.home__description {
+  color: var(--color-white);
+}
+
+.home__contact {
+  color:var(--color-white);
+  font-size: var(--font-regular);
+  font-weight: var(--weight-bold);
+  margin: 24px;
+  padding: 8px 12px;
+  border: 2px solid var(--color-orange);
+  border-radius: var(--size--border-radious);
 }

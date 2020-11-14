@@ -471,7 +471,7 @@ margin: auto;
 
 /* Contact */
 #contact {
-    background-color: var(--color-dark-blue);
+    background-color: var(--color-blue);
 }
 
 .contact__title,
@@ -544,7 +544,7 @@ margin: auto;
     #navbar {
         flex-direction: column;
         align-items: flex-start;
-        background-color: var(--color-dark-blue);
+        background-color: var(--color-blue);
     }
 
     #navbar.navbar--dark {
